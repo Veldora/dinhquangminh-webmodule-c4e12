@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMI</title>
+    <style>
+      div{
+          margin-left: 50px;
+          margin-right: 50px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          padding: 1px;
+            }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>BMI</h1>
+    </div>
+    <div id="text">
+      <p>Write your mass(kg) and your height(cm)</p>
+    </div>
+    <form action="/txtMass/txtHeight" method="get">
+      Mass:
+      <input type="text" name="txtMass">
+      <br>
+      Height:
+      <input type="text" name="txtHeight">
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
